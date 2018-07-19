@@ -1,5 +1,0 @@
-INDEX VERSION 1.131
-D:\IDE_Program\JSP\Jsp_Tutorial\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1853169682.index
-\Ch01\src
-D:\IDE_Program\JSP\Jsp_Tutorial\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1396729726.index
-\TomcatTest\src
