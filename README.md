@@ -7,7 +7,7 @@
 * [Eclipse相關設定](https://github.com/Ura777/Jsp_Tutorial#eclipse%E7%9B%B8%E9%97%9C%E8%A8%AD%E5%AE%9A)
 * [Eclipse相關操作](https://github.com/Ura777/Jsp_Tutorial#eclipse%E7%9B%B8%E9%97%9C%E6%93%8D%E4%BD%9C)
 * [課程介紹](https://github.com/Ura777/Jsp_Tutorial#%E8%AA%B2%E7%A8%8B%E4%BB%8B%E7%B4%B9)
-  * [Ch01 - ](https://github.com/Ura777/Jsp_Tutorial#ch01--)
+  * [Ch01 - 靜態網頁、動態網頁](https://github.com/Ura777/Jsp_Tutorial#ch01--)
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
@@ -111,6 +111,12 @@
   * 點選Tomcat v9.0 Server at localhost &gt; 點選該視窗中最右上角的紅色正方形按鈕
 * * *
 ## 課程介紹
-## Ch01 - 
+## Ch01 - 靜態網頁、動態網頁
+* 靜態網頁
+* 動態網頁
+  * 在客戶端(Client)上執行
+    * JavaScript
+  * 在伺服器端(Server)上執行
+    * JSP
 * * *
 
