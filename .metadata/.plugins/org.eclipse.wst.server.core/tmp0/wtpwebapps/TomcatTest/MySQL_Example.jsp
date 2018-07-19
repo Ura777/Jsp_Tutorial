@@ -59,16 +59,16 @@
 					
 					
 						//執行SQL指令：修改資料
-					//	sql = "update list set price='1000' where no = '001'";
-					//	count = con.createStatement().executeUpdate(sql);
+						//sql = "update list set price='1000' where no = '001'";
+						//count = con.createStatement().executeUpdate(sql);
 					/*	if (count>0)
 						{
 								out.print("修改成功" + "<br>" + "經過修改的資料共有 " + count + " 筆");
 						}
 					*/	
 						//執行SQL指令：刪除資料
-					//	sql = "delete from list where no = '003'";
-					//	count = con.createStatement().executeUpdate(sql);
+						//sql = "delete from list where no = '003'";
+						//count = con.createStatement().executeUpdate(sql);
 					/*	if (count>0)
 						{
 							out.print("修改成功" + "<br>" + "經過刪除的資料共有 " + count + " 筆");
@@ -79,9 +79,6 @@
 						}
 					*/
 
-						
-						
-						
 					}
 					con.close();
 				}
