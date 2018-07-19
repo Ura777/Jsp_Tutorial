@@ -21,7 +21,8 @@
 ## Java環境變數設置
 * 取得並複製JDK安裝路徑  
  
-        C:\Program Files\Java\jdk1.8.0_162
+        路徑通常為：  
+		C:\Program Files\Java\jdk1.8.0_162
  
 * 控制台 &gt; 所有控制台項目 &gt; 系統 &gt; 點選右邊的進階系統設定 &gt; 點選上方的進階標籤 &gt; 環境變數
 * 在Administrator的使用者變數(U)區塊中點選新增按鈕，根據對應的欄位輸入以下的資料：  
@@ -58,7 +59,7 @@
 * 複製mysql-connector-java-8.0.11.jar
 * 進入Apache Tomcat的lib資料夾
  
-        路徑通常為： 
+        路徑通常為：  
 		C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib
  
 * 貼上剛才所複製的mysql-connector-java-8.0.11.jar
@@ -79,7 +80,7 @@
   * 上方選單點選Window &gt; Preferences &gt; Server &gt; Runtime Environments &gt; 點選Add按鈕
   * 選擇Apache Tomcat v9.0 &gt; 點選next按鈕 &gt; 點選Browse...按鈕 &gt; 選擇Apache-Tomcat安裝的路徑
  
-        路徑通常為： 
+        路徑通常為：  
 		C:\Program Files\Apache Software Foundation\Tomcat 9.0
  
   * 點選JRE:下方的下拉式選單 &gt; 選擇已經安裝好的JRE &gt; 點選Finish按鈕
@@ -106,7 +107,8 @@
   * 勾選最下方的Always use this server when running this project
   * 按下Finish按鈕
 * 停止伺服器
-  * 在Eclipse下方視窗中點選Servers標籤 &gt; 點選Tomcat v9.0 Server at localhost &gt; 點選該視窗中最右上角的紅色正方形按鈕
+  * 在Eclipse下方視窗中點選Servers標籤
+  * 點選Tomcat v9.0 Server at localhost &gt; 點選該視窗中最右上角的紅色正方形按鈕
 * * *
 ## 課程介紹
 ## Ch01 - 
