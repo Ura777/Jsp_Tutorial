@@ -8,6 +8,7 @@
 * [Eclipse相關操作](https://github.com/Ura777/Jsp_Tutorial#eclipse%E7%9B%B8%E9%97%9C%E6%93%8D%E4%BD%9C)
 * [課程介紹](https://github.com/Ura777/Jsp_Tutorial#%E8%AA%B2%E7%A8%8B%E4%BB%8B%E7%B4%B9)
   * [Ch01 - 靜態網頁、動態網頁](https://github.com/Ura777/Jsp_Tutorial#ch01---%E9%9D%9C%E6%85%8B%E7%B6%B2%E9%A0%81%E5%8B%95%E6%85%8B%E7%B6%B2%E9%A0%81)
+  * [Ch03 - Html5、CSS]
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
@@ -119,7 +120,7 @@
   * 在伺服器端(Server)上執行
     * JSP
 * * *
-## Ch03 - Html5
+## Ch03 - Html5、CSS
 * 基本的Html5架構
 * 常用的Html5標籤
   * &lt;table&gt;
