@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- 影像地圖 -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>影像地圖</title>
+	</head>
+	<body>
+		<div>
+			<!-- 
+				加入usemap屬性
+				設定值為map的名稱
+			 -->
+			<img src="imageMap.gif" usemap="#navbar" alt="影像地圖" width="422" height="44">
+			
+			<!-- map -->
+			<map name="navbar">
+				<!-- 
+					area屬性說明：
+					href = 導向的URL
+					shape = 點擊區域的形狀
+					alt = 替代的文字說明
+					coords = 點擊區域的座標，座標的取得方式可以開啟小畫家來觀看。
+				-->
+				<area href="01-Img.html" shape="rect" alt="上一頁" coords="113,12,183,36">
+				<area href="02-ImageSize.html"  shape="rect" alt="最上層" coords="199,2,241,41">
+				<area href="03-ImageAndText.html" shape="rect" alt="下一頁" coords="258,12,327,36">
+			</map>
+		</div>
+	</body>
+</html>

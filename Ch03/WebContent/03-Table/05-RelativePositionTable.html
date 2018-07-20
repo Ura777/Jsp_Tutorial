@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- 相對位置的表格 -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>絕對位置的表格</title>
+	</head>
+	<body>
+		<!-- 
+			width=60%表示表格固定占用60%的比例大小
+			表格會瀏覽器的縮放而變更大小
+		-->
+		<table border="1" width="60%">
+			<tr>
+				<!-- 橫向合併 -->
+				<td colspan="3">
+					新書介紹
+				</td>
+			</tr>
+			<tr>
+				<!-- 直向合併 -->
+				<td rowspan="2">
+					REd Hat Linux 9 入門與架站實務
+				</td>
+				<td>
+					系列：
+				</td>
+				<td>
+					風雲系列
+				</td>
+			</tr>
+			<tr>
+				<td>
+					作者：
+				</td>
+				<td>
+					吳權威
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

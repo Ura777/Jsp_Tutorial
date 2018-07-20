@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- 視窗框架-->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>視窗框架的範例</title>
+	</head>
+	
+	<!-- 
+		frameset 
+		frameset不可以與body同時存在
+		Html5不支援frameset
+		frameset的屬性說明：
+		rows = 分割高度
+		cols = 分割寬度
+	-->
+	<frameset rows="70,*">
+		<!-- 上半部的子框架 -->
+  		<frame src="title.html" name="logo" scrolling="no" noresize>
+  			
+  		<!-- 下半部的子框架 -->
+  		<frameset cols="150,*">
+  			<!-- 
+  				frame屬性說明：
+  				scr = 框架檔案或URL
+  				name = 框架名稱
+  				scrolling = 是否可以捲動
+  			-->
+    		<frame src="menu.html" name="menu" scrolling="yes">
+    		<frame src="content.html" name="content" scrolling="yes">
+  		</frameset>
+		
+		<!-- 不設定框架 -->
+		<noframes>
+			<body>
+				<p>
+					我是Index
+				</p>
+			</body>
+		</noframes>
+	</frameset>
+</html>
