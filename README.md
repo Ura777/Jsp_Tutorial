@@ -122,6 +122,46 @@
   * 在伺服器端(Server)上執行
     * JSP
 * * *
+## Ch02 - Tomcat的管理
+* 更改通訊埠
+  * 去安裝Tomcat的路徑中尋找server.xml
+ 
+        路徑通常為：  
+		C:\Program Files\Apache Software Foundation\Tomcat 9.0\conf\server.xml
+ 
+  * 使用文字編輯器開啟server.xml &gt; 尋找以下的程式碼：
+ 
+        <Connector port="8080" protocol="HTTP/1.1"  
+               connectionTimeout="20000"  
+               redirectPort="8443" /> 
+ 
+  * 將8080改成想要設定的數字
+ 
+        例如：
+		80
+ 
+  * 修改完成後儲存檔案 &gt; 重新啟動Tomcat
+* 虛擬資料夾與真實資料夾的對應
+  * 去安裝Tomcat的路徑中尋找server.xml
+ 
+        路徑通常為：  
+		C:\Program Files\Apache Software Foundation\Tomcat 9.0\conf\server.xml
+ 
+  * 使用文字編輯器開啟server.xml &gt; 尋找以下的程式碼：
+ 
+        <Host name="localhost"  appBase="webapps"  
+            unpackWARs="true" autoDeploy="true">
+ 
+  * 在上述的程式碼下方新增以下的程式碼：
+ 
+        <Context path="/虛擬資料夾名稱" docBase = "實體資料夾位置" debug="0" />  
+		  
+		例如：  
+		<Context path="/test" docBase = "C:\Jsp_Tutorial" debug="0" />
+ 
+  * 修改完成後儲存檔案 &gt; 重新啟動Tomcat
+  * 虛擬資料夾與實體資料夾的名稱都不能有中文字
+* * *
 ## Ch03 - Html5、CSS
 * 基本的Html5架構
 * 常用的Html5標籤
