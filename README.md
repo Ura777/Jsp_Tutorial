@@ -137,5 +137,39 @@
     * 跑馬燈
 * CSS
 * * *
-
+## Ch04 - JSP、Java
+* 第1個JSP
+  * Hello World!!!
+* 跳脫字元
+  * 程式的換行 = \n
+  * 網頁的換行 = <br>
+* 變數
+* 邏輯運算
+  * And = &&
+  * Or = ||
+  * Xor = ^
+* 選擇性結構
+  * if
+  * if-else
+  * if-else if
+  * 巢狀if
+  * switch-case
+* 迴圈
+  * for
+  * while
+  * do-while
+  * break
+  * continue
+* 在Html的標籤中使用JSP的變數
+  * 實作每日一句
+  * 實作九九乘法表
+* 陣列
+  * 1維
+  * 2維
+* 方法(Method)
+  * 自訂方法
+* 引入檔案
+* 亂數類別的使用
+  * 實作隨機廣告
+* * *
 
