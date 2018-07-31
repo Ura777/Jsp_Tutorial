@@ -17,7 +17,7 @@
 				{
 					out.print(String.format("分數為%d，結果為及格。<p>", score));
 				}
-				else if (score>=40 && score<=60)
+				else if (score>=40 && score<60)
 				{
 					out.print(String.format("分數為%d，結果為不及格，請再努力。<p>", score));
 				}
