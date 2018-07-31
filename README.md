@@ -12,7 +12,7 @@
   * [Ch03 - Html5、CSS](https://github.com/Ura777/Jsp_Tutorial#ch03---html5css)
   * [Ch04 - JSP、Java](https://github.com/Ura777/Jsp_Tutorial#ch04---jspjava)
   * [Ch05 - 隱含物件](https://github.com/Ura777/Jsp_Tutorial#ch05---%E9%9A%B1%E5%90%AB%E7%89%A9%E4%BB%B6)
-  * [Ch06 - 表單]()
+  * [Ch06 - 表單](https://github.com/Ura777/Jsp_Tutorial#ch06---%E8%A1%A8%E5%96%AE)
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
