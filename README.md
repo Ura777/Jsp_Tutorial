@@ -12,6 +12,7 @@
   * [Ch03 - Html5、CSS](https://github.com/Ura777/Jsp_Tutorial#ch03---html5css)
   * [Ch04 - JSP、Java](https://github.com/Ura777/Jsp_Tutorial#ch04---jspjava)
   * [Ch05 - 隱含物件](https://github.com/Ura777/Jsp_Tutorial#ch05---%E9%9A%B1%E5%90%AB%E7%89%A9%E4%BB%B6)
+  * [Ch06 - 表單]()
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
@@ -224,5 +225,23 @@
   * 實作來訪人數計數器
 * session物件
 * * *
+## Ch06 - 表單
+* Form
+* 常用的表單元件
+  * Textbox
+    * text
+	* passowrd
+  * Radio Button
+  * Checkbox
+  * Dropdown List
+  * Textarea
+  * Button
+    * submit
+	* reset
+* 表單的傳送方式
+  * get
+  * post
+* 使用JSP接收與處理表單
+* Cookie
 
 
