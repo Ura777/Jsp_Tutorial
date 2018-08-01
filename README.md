@@ -13,6 +13,7 @@
   * [Ch04 - JSP、Java](https://github.com/Ura777/Jsp_Tutorial#ch04---jspjava)
   * [Ch05 - 隱含物件](https://github.com/Ura777/Jsp_Tutorial#ch05---%E9%9A%B1%E5%90%AB%E7%89%A9%E4%BB%B6)
   * [Ch06 - 表單](https://github.com/Ura777/Jsp_Tutorial#ch06---%E8%A1%A8%E5%96%AE)
+  * [Ch07 - SQL]()
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
@@ -243,6 +244,158 @@
   * post
 * 使用JSP接收與處理表單
 * Cookie
+* * *
+## Ch07 - SQL
+* 資料定義語言(DDL)
+  * 建立資料庫或資料表
+	* create
+ 
+        建立資料庫：  
+		create database mydatabase;  
+		  
+		建立資料表：  
+		create table product(id int(10) not null auto_increment,  
+		                     name varchar(10) not null default"",  
+							 price int(5)  
+							);
+ 
+  * 移除資料庫或資料表
+    * drop
+ 
+        移除資料表：  
+		drop table product;
+ 
+  * 修改資料庫或資料表
+    * alter
+  * 使用資料庫或資料表
+    * use
+ 
+        使用資料庫：  
+		use database mydatabase;
+ 
+* 插入資料
+  * insert-values
+ 
+        例如：  
+		insert product(id, name, price) values ("1", "apple", "10");
+ 
+* 查詢資料
+  * 一般查詢
+    * select-from
+ 
+        查詢所有欄位的資料：  
+		select * from product;  
+		  
+		查詢特定欄位的資料：  
+		select id, name form product;
+ 
+  * 帶有條件的查詢
+    * select-from-where
+ 
+        例如：
+		select * from product where price="10";
+ 
+  * 範圍限定的查詢
+    * between-and
+ 
+        例如：  
+		select * from product where price between "10" and "50";
+ 
+  * 模糊比對的查詢
+    * like
+	  * 表示任何長度的字元：%
+	  * 表示長度為1的字元：_
+ 
+        尋找開頭為a的產品資料：  
+		select * from product where name like "a%";  
+		  
+		尋找第2個字母為p的產品資料：  
+		select * from product where name like "_p%";
+ 
+  * 分群查詢
+    * group by
+ 
+        顯示出各個班級的平均分數：
+		select classname, avg(score) as avg_score from student group by classname;
+ 
+  * 關聯資料表查詢
+    * 一般
+ 
+        例如： 
+		select * from student as t1, studentaddress as t2 where t1.id=t2.id;
+ 
+    * Left join
+	  * 指令：left-join-on
+ 
+        例如：  
+		select * from student as t1 left join studentaddress as t2 on t1.id=t2.id;
+ 
+    * Inner Join
+	  * 指令：inner-join-on
+ 
+        例如：  
+		select * from student as t1 inner join studentaddress as t2 on t1.id=t2.id;
+ 
+* 更新資料
+  * update-set-where
+ 
+        例如：  
+		update product set price="20" where name="apple";
+ 
+* 刪除資料
+  * delete from-where
+ 
+        例如：
+		delete from product where id="1";  
+		  
+		刪除全部資料：
+		delete from product;
+ 
+* 虛擬欄位
+  * as
+ 
+        將查詢出來的price欄位名稱改為sale_price：  
+		select price as sale_price form product;
+ 
+* 虛擬資料集
+ 
+        例如：  
+		select id, name from(select id, name, price from product);
+ 
+* 資料的排序
+  * order by
+    * 預設為遞增排序
+	* 遞增排序：asc
+	* 遞減排序：desc
+ 
+        依照產品價格遞減排序：  
+		select * from product order by price desc;
+ 
+* 運算式
+  * 邏輯運算子
+    * and 
+	* or
+  * 比較運算子
+    * >
+	* <
+	* =
+	* !=
+* 不顯示重複的欄位值
+  * distinct
+ 
+        例如：
+		select distinct name from product;
+ 
+* 計算函數
+  * 計算特定欄位的記錄筆數：count()
+  * 計算特定欄位的最大值：max()
+  * 計算特定欄位的最小值：min()
+  * 計算特定欄位所有值的加總：sum()
+  * 計算特定欄位所有值的平均：avg()
+ 
+        加總price欄位：  
+		select sum(price) as sum_price from product;
+ 
 * * *
 
 
