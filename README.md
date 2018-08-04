@@ -14,6 +14,7 @@
   * [Ch05 - 隱含物件](https://github.com/Ura777/Jsp_Tutorial#ch05---%E9%9A%B1%E5%90%AB%E7%89%A9%E4%BB%B6)
   * [Ch06 - 表單](https://github.com/Ura777/Jsp_Tutorial#ch06---%E8%A1%A8%E5%96%AE)
   * [Ch07 - SQL](https://github.com/Ura777/Jsp_Tutorial#ch07---sql)
+  * [Ch08 - Ch08 - JSP與MySQL的整合]()
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
@@ -393,6 +394,48 @@
         加總price欄位：
 		select sum(price) as sum_price from product;
  
+* * *
+## Ch08 - JSP與MySQL的整合
+* 連結步驟
+  * Step0：Import Library
+ 
+        於JSP頁面中加入以下程式碼：
+		<%@ page import="java.sql.*"%>
+ 
+  * Step1：載入資料庫驅動程式
+ 
+        資料庫驅動程式名稱為：
+		com.mysql.cj.jdbc.Driver
+ 
+  * Step2：建立連線
+ 
+        建立連線時的網址為：
+		jdbc:mysql://localhost/?serverTimezone=UTC
+ 
+  * Step3：選擇資料庫
+  * Step4：執行SQL指令
+  * Step5：顯示結果
+  * Step6：關閉連線
+* 使用JSP建立連線
+* 使用JSP建立資料庫
+* 使用JSP建立資料表
+* 使用JSP新增記錄至資料表
+* 使用JSP查詢資料表
+* 使用JSP更新資料表內的記錄
+* 使用JSP刪除資料表內的記錄
+* 留言版的實作
+  * mydatabase.sql
+    * 請在MySQL中執行此sql檔案
+  * 01-View.jsp
+    * 1個網頁只能夠顯示5筆留言
+	* 會有超連結直接連到特定的頁數
+	* 會有一個超連結提供使用者到02-Board.jsp填寫留言
+  * 02-Board.jsp
+    * 會有一個超連結提供使用者查看留言
+    * 使用者按確定後會執行新增留言的功能(03-Add.jsp)
+  * 03-Add.jsp
+    * 將留言的相關資料儲存至資料庫
+	* 轉向到顯示留言01-View.jsp
 * * *
 
 

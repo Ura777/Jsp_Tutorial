@@ -105,7 +105,7 @@
     -->
 
     <!-- Define an AJP 1.3 Connector on port 8009 -->
-    <Connector port="8008" protocol="AJP/1.3" redirectPort="8443"/>
+    <Connector port="8007" protocol="AJP/1.3" redirectPort="8443"/>
 
 
     <!-- An Engine represents the entry point (within Catalina) that processes
@@ -150,7 +150,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="TomcatTest" path="/TomcatTest" reloadable="true" source="org.eclipse.jst.jee.server:TomcatTest"/><Context docBase="Ch01" path="/Ch01" reloadable="true" source="org.eclipse.jst.jee.server:Ch01"/><Context docBase="Ch03" path="/Ch03" reloadable="true" source="org.eclipse.jst.jee.server:Ch03"/><Context docBase="Ch04" path="/Ch04" reloadable="true" source="org.eclipse.jst.jee.server:Ch04"/><Context docBase="Ch05" path="/Ch05" reloadable="true" source="org.eclipse.jst.jee.server:Ch05"/><Context docBase="Ch06" path="/Ch06" reloadable="true" source="org.eclipse.jst.jee.server:Ch06"/></Host>
+      <Context docBase="TomcatTest" path="/TomcatTest" reloadable="true" source="org.eclipse.jst.jee.server:TomcatTest"/><Context docBase="Ch01" path="/Ch01" reloadable="true" source="org.eclipse.jst.jee.server:Ch01"/><Context docBase="Ch03" path="/Ch03" reloadable="true" source="org.eclipse.jst.jee.server:Ch03"/><Context docBase="Ch04" path="/Ch04" reloadable="true" source="org.eclipse.jst.jee.server:Ch04"/><Context docBase="Ch05" path="/Ch05" reloadable="true" source="org.eclipse.jst.jee.server:Ch05"/><Context docBase="Ch06" path="/Ch06" reloadable="true" source="org.eclipse.jst.jee.server:Ch06"/><Context docBase="Ch08" path="/Ch08" reloadable="true" source="org.eclipse.jst.jee.server:Ch08"/></Host>
     </Engine>
   </Service>
 </Server>
