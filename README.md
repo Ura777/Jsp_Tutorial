@@ -14,7 +14,7 @@
   * [Ch05 - 隱含物件](https://github.com/Ura777/Jsp_Tutorial#ch05---%E9%9A%B1%E5%90%AB%E7%89%A9%E4%BB%B6)
   * [Ch06 - 表單](https://github.com/Ura777/Jsp_Tutorial#ch06---%E8%A1%A8%E5%96%AE)
   * [Ch07 - SQL](https://github.com/Ura777/Jsp_Tutorial#ch07---sql)
-  * [Ch08 - Ch08 - JSP與MySQL的整合]()
+  * [Ch08 - Ch08 - JSP與MySQL的整合](https://github.com/Ura777/Jsp_Tutorial#ch08---jsp%E8%88%87mysql%E7%9A%84%E6%95%B4%E5%90%88)
 * * *
 ## 環境設置
 * 作業系統 = Windows 7
