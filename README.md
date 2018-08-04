@@ -424,8 +424,9 @@
 * 使用JSP更新資料表內的記錄
 * 使用JSP刪除資料表內的記錄
 * 留言版的實作
-  * mydatabase.sql
-    * 請在MySQL中執行此sql檔案
+  * guestbook.sql
+    * 請先在MySQL中建立名稱為mydatabase的資料庫
+    * 在資料庫mydatabase中執行此sql檔案
   * 01-View.jsp
     * 1個網頁只能夠顯示5筆留言
 	* 會有超連結直接連到特定的頁數
