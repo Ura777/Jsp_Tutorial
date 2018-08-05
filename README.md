@@ -453,6 +453,27 @@
     * 根據資料庫內的姓名資料來產生下拉式選單，提供給使用者選擇想要查詢的對象。
   * 11-SelectResult.jsp
     * 顯示使用者要查詢的內容
+* 預防SQL Injection
+  * 使用PreparedStatement類別來取代直接將使用者的輸入串接在SQL指令的where後方
+  * member.sql
+    * 請先在MySQL中建立名稱為member的資料庫
+    * 在資料庫mydatabase中執行此sql檔案
+  * 01-SignIn.jsp
+    * 登入頁面
+  * 02-Check.jsp
+    * 檢查登入的帳號密碼
+	* 使用PreparedStatement類別
+	* 帳號密碼正確時會將帳號儲存在session當中
+  * 03-User.jsp
+    * 會員頁面
+	* 提供給使用者可以修改帳號密碼
+	* 利用session判斷使用者是否已經登入
+  * 04-Update.jsp
+    * 更新帳號密碼
+	* 考慮到使用者可能會更新帳號的情況，session也要進行更新。
+  * 05-SignOut.jsp
+    * 登出頁面
+	* 清除session
 * * *
 
 
