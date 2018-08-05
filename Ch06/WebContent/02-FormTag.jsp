@@ -43,10 +43,10 @@
 					<td>
 						<select name="programLanguage">
 							<option value="c" selected="selected">C語言</option>
-							<option value="cplus">C++</option>
-							<option value="java">Java</option>
-							<option value="vb">Visual Basic</option>
-							<option value="csharp">C#</option>
+							<option value="cplus">C++
+							<option value="java">Java
+							<option value="vb">Visual Basic
+							<option value="csharp">C#
 						</select>
 					</td>
 				</tr>
