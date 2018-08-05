@@ -437,6 +437,22 @@
   * 03-Add.jsp
     * 將留言的相關資料儲存至資料庫
 	* 轉向到顯示留言01-View.jsp
+* 隨機廣告的實作
+  * randad.sql
+    * 請先在MySQL中建立名稱為ad的資料庫
+    * 在資料庫mydatabase中執行此sql檔案
+* 隨機跑馬燈的實作
+  * adrand.sql
+    * 請先在MySQL中建立名稱為admarquee的資料庫
+    * 在資料庫mydatabase中執行此sql檔案
+* 下拉式選單之動態查詢的實作
+  * grades.sql
+    * 請先在MySQL中建立名稱為webdata的資料庫
+    * 在資料庫mydatabase中執行此sql檔案
+  * 11-SelectForm.jsp
+    * 根據資料庫內的姓名資料來產生下拉式選單，提供給使用者選擇想要查詢的對象。
+  * 11-SelectResult.jsp
+    * 顯示使用者要查詢的內容
 * * *
 
 
