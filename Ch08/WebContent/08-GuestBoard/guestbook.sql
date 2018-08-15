@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 80011
 File Encoding         : 65001
 
-Date: 2018-08-04 23:51:27
+Date: 2018-08-15 20:33:11
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -31,7 +31,7 @@ CREATE TABLE `guestbook` (
 -- ----------------------------
 -- Records of guestbook
 -- ----------------------------
-INSERT INTO guestbook VALUES ('24', '123', 's954208@yahoo.com.tw', 'test', '我要測試123abc', '2018-08-04');
+INSERT INTO guestbook VALUES ('24', '123', '1234@qoo.com.tw', 'test', '我要測試123abc', '2018-08-04');
 INSERT INTO guestbook VALUES ('25', '6549', '56348', 'teste', '4686sea', '2018-08-04');
 INSERT INTO guestbook VALUES ('26', 'waea', 'sdwas', 'xsww', 'adgwasdfaewa', '2018-08-04');
 INSERT INTO guestbook VALUES ('27', 'ewads', 'dfgweaa', 'sdgwaea', 'cggyrwaw', '2018-08-04');
